@@ -1,3 +1,4 @@
+/*Universal*/
 * {
     box-sizing: border-box;
     padding: 0;
@@ -6,6 +7,16 @@
 
 body {
     background-color: #d9dcd6;
+}
+
+a {
+    color: #ffffff;
+    text-decoration: none;
+    font-size: 20px;
+}
+
+p {
+    font-size: 16px;
 }
 
 /*Header Section Start*/
@@ -30,7 +41,8 @@ header nav {
     margin-right: 2%;
     float: right;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    font-size: 20px;
+    font-size: 100%;
+    overflow: auto;
 }
 
 header nav ul {
@@ -42,15 +54,6 @@ header nav ul li {
     margin-left: 25px;
 }
 /*Header Section End*/
-
-a {
-    color: #ffffff;
-    text-decoration: none;
-}
-
-p {
-    font-size: 16px;
-}
 
 /*Hero Section Start*/
 .hero {
@@ -67,18 +70,19 @@ p {
 /*Content Section Start*/
 .float-left {
     float: left;
-    margin-right: 10%;
+    margin-right: auto;
 }
 
 .float-right {
     float: right;
-    margin-left: 10%;
+    margin-left: auto;
 }
 
 .contents {
     width: 75%;
     display: inline-block;
-    margin-left: 2%;
+    margin: auto 2%;
+    padding: 2%
 }
 
 .content{
@@ -100,6 +104,7 @@ p {
 .content h2 {
     margin-bottom: 20px;
     font-size: 36px;
+    float: left;
 }
 
 .content-info {
@@ -112,15 +117,15 @@ p {
 
 /*Benefit Section Start*/
 .benefits {
-    margin-right: 20px;
-    padding: 20px;
+    margin-right: 2%;
+    padding: 2%;
     clear: both;
     float: right;
-    width: 20%;
+    width: 15%;
     height: 100%;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     background-color: #2589bd;
-    margin-bottom: 32px;
+    margin-bottom: 2%;
     color: #ffffff;
 }
 
