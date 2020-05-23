@@ -7,6 +7,10 @@ The code refactorization focuses on reconsolidating HTML semantics and CSS selec
 
 ## Accessibility
 Accessibility is achieved through the deployment's ability to be used on many platforms.
+Some accessibility considerations include:
+-Image elements
+-Heading attributes
+-Title elements
 
 ## Deployment:
 [d-belleza.github.io/Horiseon](https://d-belleza.github.io/Horiseon/)
