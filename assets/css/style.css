@@ -87,7 +87,7 @@ header nav ul li {
 .content{
     margin-bottom: 2%;
     width: 100%;
-    padding: 4%;
+    padding: 2% 4%;
     height: 300px;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     background-color: #0072bb;
@@ -95,10 +95,12 @@ header nav ul li {
 }
 
 .content img {
-    width: 35%;
+    max-height: 100%;
+    max-width: 100%;
     overflow: auto;
     float: left;
-}
+    display: block;
+}   
 
 .content h2 {
     margin-bottom: 20px;
@@ -110,8 +112,12 @@ header nav ul li {
     padding: 2%;
     width: 55%;
     float: left;
+    display: block;
 }
 
+.content p{
+    clear: both;
+}
 /*Content Section End*/
 
 /*Benefit Section Start*/
