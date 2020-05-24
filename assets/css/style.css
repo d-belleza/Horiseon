@@ -92,10 +92,11 @@ header nav ul li {
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     background-color: #0072bb;
     color: #ffffff;
+    overflow: auto;
 }
 
 .content img {
-    max-height: 100%;
+    padding: 1%;
     max-width: 35%;
     overflow: auto;
     float: left;
@@ -148,7 +149,7 @@ header nav ul li {
 .benefits img {
     display: block;
     margin: 10px auto;
-    max-width: 150px;
+    max-width: 100%;
 }
 /*Benefit Section End*/
 
