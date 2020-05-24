@@ -14,3 +14,5 @@ Some accessibility considerations include:
 
 ## Deployment:
 [d-belleza.github.io/Horiseon](https://d-belleza.github.io/Horiseon/)
+
+![Application Screenshot](Horiseon/horiseonsc.png)
