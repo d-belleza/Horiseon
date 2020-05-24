@@ -97,6 +97,7 @@ header nav ul li {
 
 .content img {
     padding: 1%;
+    max-height: 100%;
     max-width: 35%;
     overflow: auto;
     float: left;
